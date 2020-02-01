@@ -1,2 +1,9 @@
 #!/bin/bash
-echo "Las echo son para iniciar una etapa"
+# interactivo.sh Ejemplo de  un script interactivo
+
+echo -n "Digame su nombre:"
+read NOMBRE
+
+read -p "Y su apellido: " APELLIDO
+printf "Hola %s %s" $NOMBRE $APELLIDO
+

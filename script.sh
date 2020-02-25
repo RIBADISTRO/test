@@ -3,7 +3,6 @@
 
 echo -n "Digame su nombre:"
 read NOMBRE
-#Falta comentar aqui
 read -p "Y su apellido: " APELLIDO
 printf "Hola %s %s" $NOMBRE $APELLIDO
 

@@ -1,6 +1,9 @@
 #!/bin/bash
-# interactivo.sh Ejemplo de  un script interactivo
-Esto esta mas comentado
+# interactivo.sh Ejemplo de  un script interactiv
+
+=======
+echo -n "Bienvenido bash shell"
+>>>>>>> julio
 echo -n "Digame su nombre:"
 read NOMBRE
 read -p "Y su apellido: " APELLIDO
